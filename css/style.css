@@ -2,8 +2,9 @@
 /* CSS Document */
 
 body {
-	font-family:Arial, "Times New Roman", Times, sans-serif;
+	font-family: 'Signika', sans-serif;
 	width: 960px;
+	margin-left: 1.5%;
 }
 
 h2{
@@ -13,7 +14,7 @@ h2{
 h4{
 	line-height: 1em;
 	font-size: 10px;
-	font-weight: bold;
+	font-weight: 700;
 }
 
 p{
@@ -33,7 +34,7 @@ ul{
 
 section li{
 	font-size: 13px;
-	font-weight: bold;
+	font-weight: 700;
 	line-height: 2em;
 }
 
@@ -41,7 +42,6 @@ header{
 	width: 960px;
 	background-color: #fff;
 	position: fixed;
-	padding-left: 3%;
 }
 
 nav{
@@ -57,28 +57,36 @@ nav ul{
 nav ul li{
 	float: left;
 	margin-left: 30px;
+	font-size: 14px;
+	font-weight: bold;
 }
 
 section{
 	padding-top: 50px;
+	padding-bottom: 2%;
 }
 
 section#sidemenu{
-	width: 30%;
+	width: 20%;
 	float: left;
-	margin-left: 3%;
 	margin-right: 5%;
 }
 
 section#content{
 	display: block;
 	float: left;
-	width: 60%;
+	width: 70%;
 }
 
 article{
 	padding-top: .5%;
 	padding-bottom: .5%;
+}
+
+footer{
+	padding-top: 2%;
+	border-top: 2cm;
+	border-color: #000;
 }
 
 
