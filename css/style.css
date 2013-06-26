@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family:Arial, "Times New Roman", Times, sans-serif;
+	width: 960px;
+}
+
+h2{
+	line-height: 0em;
+}
+
+h4{
+	line-height: 1em;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+p{
+	font-size: 13px;
+	line-height: 1.5em;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+ul{
+	padding: 0;
+	list-style: none;
+}
+
+section li{
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 2em;
+}
+
+header{
+	width: 960px;
+	background-color: #fff;
+	position: fixed;
+	padding-left: 3%;
+}
+
+nav{
+	float: right;
+	width: 350px;
+}
+
+nav ul{
+	list-style-type: none;
+
+}
+
+nav ul li{
+	float: left;
+	margin-left: 30px;
+}
+
+section{
+	padding-top: 50px;
+}
+
+section#sidemenu{
+	width: 30%;
+	float: left;
+	margin-left: 3%;
+	margin-right: 5%;
+}
+
+section#content{
+	display: block;
+	float: left;
+	width: 60%;
+}
+
+article{
+	padding-top: .5%;
+	padding-bottom: .5%;
+}
+
+
+
